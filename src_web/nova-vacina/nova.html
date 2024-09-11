@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./nova.css">
+        <title>Nova Vacina</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <link rel="icon" href="../imagens/logo.png">
+    </head>
+
+    <body>
+        <header>
+            <nav class="esquerdo">
+                <img class="logo" src="../imagens/logo.png"/>
+                <h2>MyHealth</h2>
+            </nav>
+            <nav class="direito">
+                <button class="btm-header" id="vacinas">Minhas Vacinas</button>
+                <button class="btm-header" id="logout">Logout</button>
+            </nav>
+        </header>
+        <main>
+            <div class="rotulo">
+                <label>Data de vacinação</label>
+                <label>Vacina</label>
+                <label>Dose</label>
+                <label>Comprovante Da vacina</label>
+                <label class="diferente">Próxima vacinação</label>
+            </div>
+            <div class="entradas">
+                <input type="date" name="" id="data">
+                <input type="text" name="" id="vacina">
+                <p>
+                    <input type="radio" name="dose" value="1º dose">1º dose
+                    <input type="radio" name="dose" value="2º dose">2º dose
+                    <input type="radio" name="dose" value="3º dose">3º dose
+                    <input type="radio" name="dose" value="reforço">Reforço
+                    <input type="radio" name="dose" value="dose única">Dose única
+                </p>
+                <input type="file" id="foto">
+                <div>
+                    <img id="trocafoto">
+                </div>
+                <input type="date" name="" id="proxData">
+            </div>
+        </main>
+
+        <footer>
+            <button class="botaoBaixo">Cadastrar</button>
+        </footer>
+
+        <script type="module" src="nova.js"></script>
+    </body>
+</html>

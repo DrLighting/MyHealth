@@ -1,0 +1,172 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c1e7e3;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    left: 18px;
+    top: 20px;
+}
+
+.esquerdo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 57px;
+    color: #419ED7;
+}
+
+.btm-header{
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: white;
+    background-color: #419ED7;
+    border: none;
+    cursor: pointer;
+    margin-right: 15px;
+
+}
+
+#vacinas{
+    height: 50px;
+    width: 200px;
+}
+
+#logout{
+    width: 125px;
+    height: 50px;
+}
+
+main{
+    height: 80vh;
+    background-color: #add4d0;
+}
+
+.pesquisa{
+    height: 5vh;
+
+    background-color: #add4d0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.pesquisa input{
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #8b8b8b;
+    
+    margin-top: 2%;
+    margin-left: 2%;
+
+    width: 96%;
+}
+
+.grid-vacinas{
+    
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.quadro{
+    width: 230px;
+    height: 250px;
+    background-color: white;
+    margin: 15px;
+}
+
+
+.vacina{
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.dose{  
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    background-color: #419ED7;
+}
+
+.comprovante{
+    width: 200px;
+    height: 175px;
+    display: flex;
+    margin-left: 15px;
+}
+
+.data{
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #8B8B8B;
+}
+
+.reforco{
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: red;
+}
+
+
+
+
+footer{
+    height: 7vh;
+    background-color: #add4d0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.btm-footer{
+    width: 188px;
+    height: 50px;
+    background-color: #37BD6D;
+    color: white;
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    border: none;
+}

@@ -1,0 +1,152 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c1e7e3;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    left: 18px;
+    top: 20px;
+}
+
+.esquerdo{
+    display: flex;
+    align-items: center;
+
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 57px;
+    color: #419ED7;
+}
+
+.btm-header{
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: white;
+    background-color: #419ED7;
+    border: none;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+#vacinas{
+    height: 50px;
+    width: 200px;
+}
+
+#logout{
+    width: 125px;
+    height: 50px;
+}
+
+
+main{
+    height: 62vh;
+    background-color: #add4d0;
+    display: flex;
+}
+
+.rotulo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+label{
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #ffffff;
+    margin: 2px;
+}
+
+.entradas{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 200;
+    font-size:30px;
+    line-height: 33px;
+    color: #419ED7;
+    margin: 5px;
+    border: none;
+}
+
+.diferente{
+    margin-top: 150px;
+}
+
+#data{
+    width: 250px;
+}
+
+#vacina{
+    width: 250px;
+}
+#proxData{
+    width: 250px;
+}
+
+
+
+
+p{
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #ffffff;
+}
+
+img{
+    width: 299px;
+    height: 146px;
+}
+
+footer{
+    height: 30vh;
+    background-color: #add4d0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.botaoBaixo{
+    background-color: #37BD6D;
+    border: none;
+    width: 188px;
+    height: 50px;
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+

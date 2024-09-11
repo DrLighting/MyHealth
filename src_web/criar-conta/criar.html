@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./criar.css">
+        <title>Criar Conta</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <link rel="icon" href="../imagens/logo.png">
+    </head>
+
+    <body>
+        <header>
+            <nav class="esquerdo">
+                <img class="logo" src="../imagens/logo.png"/>
+                <h2>MyHealth</h2>
+            </nav>
+        </header>
+    
+        <main>
+            <div class="label">
+                <label>Nome Completo</label>
+                <label>Sexo</label>
+                <label>Data nascimento</label>
+                <label>E-mail</label>
+                <label>Senha</label>
+                <label>Repetir senha</label>
+            </div>
+            <div class="input">
+                <input type="text" id="nome">
+                <p>
+                    <input type="radio" name="sexo" value="Masculino"> Masculino
+                    <input type="radio" name="sexo" value="Feminino"> Feminino
+                </p>
+                <p><input type="date" id="datanasc"></p>
+                <input type="text" id="email">
+                <input type="password" id="senha1">
+                <input type="password" id="senha2">
+
+            </div>
+
+        </main>
+
+        <div class="aviso">
+            
+        </div>
+
+        <footer>
+            <button id="cadastro">Cadastrar</button>
+        </footer>
+
+
+
+        <script type="module" src="criar.js"></script>
+    </body>
+</html>

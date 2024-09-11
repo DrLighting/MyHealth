@@ -1,0 +1,105 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    height: 8vh;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c1e7e3;
+    ;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    left: 18px;
+    top: 20px;
+}
+
+.esquerdo{
+    display: flex;
+    align-items: center;
+
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 57px;
+    color: #419ED7;
+}
+
+.direito{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: white;
+    background-color: #419ED7;
+
+    margin-right: 10px;
+    height: 57px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+}
+
+main{
+    width: 100%;
+    height: 92vh;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url(../imagens/planoFundo.jpg);
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+
+.criarConta{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    background-color: #419ED7;
+
+
+    height: 75px;
+    width: 400px;
+    margin-top: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.texto{
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #419ED7;
+}
+
