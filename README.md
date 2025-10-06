@@ -12,10 +12,11 @@ O projeto consta com cadastro dos usuários, criação de certificados de vacina
 3. Rode a página *index* em *src_web/index/intex.html* via live server
 4. Projeto já deve está pronto para uso
 
+
 ## Instruções de Uso
 ### Criação de usuário
   1. Na página *index* clique no botão *cria sua conta* no canto supeiror direito
-  <img src=https://drive.google.com/file/d/13xXkJ2jV_rgDIv85k1v2WcbVbsDxGLa1/view?usp=sharing/>
+  <img src="https://drive.google.com/file/d/13xXkJ2jV_rgDIv85k1v2WcbVbsDxGLa1/view?usp=sharing"/>
   2. após inserir seus dados nos campos, clique no botão *Criar* para criar sua conta
      ![cadastro](https://drive.google.com/file/d/1D8MlbTyFcx8ADc-IywUfvw5H-DDkSnyv/view?usp=sharing)
 
